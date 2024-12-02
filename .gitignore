@@ -1,0 +1,6 @@
+input
+*.sln
+.vs
+bin
+obj
+ProjectEvaluation
