@@ -20,9 +20,7 @@ while (true)
     }
 
     if (board[next.Y][next.X] == '#')
-    {
         dir = TurnRight(dir);
-    }
     
     current = new P(current.X + dir.X, current.Y + dir.Y);
 }
@@ -36,7 +34,6 @@ P TurnRight(P dir)
         (0, 1) => new(-1, 0),
         _ => default
     };
-// -1 0, 0, 0 -1
 
 P FindStart()
 {
